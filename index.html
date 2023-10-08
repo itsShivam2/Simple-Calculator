@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./calculator.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">CALCULATOR</h1>
+      <div class="calculator">
+        <div class="display-screen">
+          <div id="display"></div>
+        </div>
+        <div class="buttons">
+          <table>
+            <tr>
+              <td><button class="operator-btn">C</button></td>
+              <td><button class="operator-btn">&larr;</button></td>
+              <td><button class="operator-btn">&divide;</button></td>
+              <td><button class="operator-btn">*</button></td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td><button class="numeric-btn">7</button></td>
+              <td><button class="numeric-btn">8</button></td>
+              <td><button class="numeric-btn">9</button></td>
+              <td><button class="operator-btn">-</button></td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td><button class="numeric-btn" id="4">4</button></td>
+              <td><button class="numeric-btn" id="5">5</button></td>
+              <td><button class="numeric-btn" id="6">6</button></td>
+              <td><button class="operator-btn" id="+">+</button></td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td><button class="numeric-btn">1</button></td>
+              <td><button class="numeric-btn">2</button></td>
+              <td><button class="numeric-btn">3</button></td>
+              <td><button class="numeric-btn">.</button></td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td><button class="operator-btn">(</button></td>
+              <td><button class="numeric-btn">0</button></td>
+              <td><button class="operator-btn">)</button></td>
+              <td><button class="numeric-btn" id="equal">=</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
